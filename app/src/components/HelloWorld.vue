@@ -1,8 +1,10 @@
 <script setup>
 import { ref } from 'vue'
 import { useStore } from '../stores/store';
+import { inject } from 'vue'
 
 const store = useStore();
+const axios = inject('axios')
 
 defineProps({
   msg: String,
