@@ -1,5 +1,8 @@
 <script setup>
 import { ref } from 'vue'
+import { useStore } from '../stores/store';
+
+const store = useStore();
 
 defineProps({
   msg: String,
