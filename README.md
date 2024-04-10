@@ -1,1 +1,1 @@
-# wireframe-ss-web-app
+# vue 3 template
